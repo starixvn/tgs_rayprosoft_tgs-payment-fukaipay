@@ -169,7 +169,7 @@ public class WithdrawTests(ITestOutputHelper testOutputHelper)
                 "ExtendFields": "",
                 "PaymentTime": "2024-05-21 13:39:00",
                 "Remark": "",
-                "Sign": "1rM0qDfoX\/1+mOX2QffN6688ixEEbq+A7UNZ5qy9uH0="
+                "Sign": "yc6o4xSpp354WFt0ng1e0GhdX0jCUUZ1dKzFkrQI3gQ="
             }
             """;
 
@@ -183,7 +183,7 @@ public class WithdrawTests(ITestOutputHelper testOutputHelper)
         {
             FormId = formId,
             OrderAmount = decimal.Parse("100.00"),
-            Sign = "1rM0qDfoX/1+mOX2QffN6688ixEEbq+A7UNZ5qy9uH0=",
+            Sign = "yc6o4xSpp354WFt0ng1e0GhdX0jCUUZ1dKzFkrQI3gQ=",
             Status = "1",
             PaymentTime = "2024-05-21 13:39:00",
             MerchantAccount = "merchantId",
