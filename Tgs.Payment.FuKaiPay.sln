@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tgs.Payment.FuKaiPay", "Tgs.Payment.FuKaiPay\Tgs.Payment.FuKaiPay.csproj", "{D27F7BCD-1DB9-4FF4-A2EC-A65AE5956CD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DFDCAE19-9AE6-488F-A2C0-47CCEF3502FC}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		CodeMaid.config = CodeMaid.config
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuKaiPay.Core", "FuKaiPay.Core\FuKaiPay.Core.csproj", "{7C5D10A0-4808-4160-A6EB-C424937FC427}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuKaiPay.Client", "FuKaiPay.Client\FuKaiPay.Client.csproj", "{B0228DEB-22BC-48EF-85FA-BE2344936FBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuKaiPay.Core.UnitTests", "FuKaiPay.Core.UnitTests\FuKaiPay.Core.UnitTests.csproj", "{5616FBEF-EC5F-43A4-94E9-3989D2DA3DD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tgs.Payment.FuKaiPay.IntegrationTests", "Tgs.Payment.FuKaiPay.IntegrationTests\Tgs.Payment.FuKaiPay.IntegrationTests.csproj", "{A22AF33A-F2C1-48E8-A107-37D4987662BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuKaiPayTest", "FuKaiPayTest\FuKaiPayTest.csproj", "{03F3C623-8526-41CB-AF23-B48F44D64920}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D27F7BCD-1DB9-4FF4-A2EC-A65AE5956CD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D27F7BCD-1DB9-4FF4-A2EC-A65AE5956CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D27F7BCD-1DB9-4FF4-A2EC-A65AE5956CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D27F7BCD-1DB9-4FF4-A2EC-A65AE5956CD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C5D10A0-4808-4160-A6EB-C424937FC427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C5D10A0-4808-4160-A6EB-C424937FC427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C5D10A0-4808-4160-A6EB-C424937FC427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C5D10A0-4808-4160-A6EB-C424937FC427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0228DEB-22BC-48EF-85FA-BE2344936FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0228DEB-22BC-48EF-85FA-BE2344936FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0228DEB-22BC-48EF-85FA-BE2344936FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0228DEB-22BC-48EF-85FA-BE2344936FBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5616FBEF-EC5F-43A4-94E9-3989D2DA3DD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5616FBEF-EC5F-43A4-94E9-3989D2DA3DD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5616FBEF-EC5F-43A4-94E9-3989D2DA3DD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5616FBEF-EC5F-43A4-94E9-3989D2DA3DD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A22AF33A-F2C1-48E8-A107-37D4987662BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A22AF33A-F2C1-48E8-A107-37D4987662BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A22AF33A-F2C1-48E8-A107-37D4987662BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A22AF33A-F2C1-48E8-A107-37D4987662BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03F3C623-8526-41CB-AF23-B48F44D64920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F3C623-8526-41CB-AF23-B48F44D64920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F3C623-8526-41CB-AF23-B48F44D64920}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F3C623-8526-41CB-AF23-B48F44D64920}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3EF27A3-2872-42EC-A14A-597D970F37A0}
+	EndGlobalSection
+EndGlobal
