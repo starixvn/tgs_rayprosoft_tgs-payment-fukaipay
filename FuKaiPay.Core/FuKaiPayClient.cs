@@ -73,7 +73,7 @@ public class FuKaiPayClient(
             ["PaymentAmount"] = (order.Amount * 100m).ToString(),//單位為分，100分 = 1披索
             ["PayerBankName"] = order.PayerBankName,
             ["PaymentCurrency"] = order.PaymentCurrency,
-            ["NotifyUrl"] = "https://bc9lx48d-7014.asse.devtunnels.ms" + "/withdraw/callback", //order.CallbackUrl.AbsoluteUri,
+            ["NotifyUrl"] = order.CallbackUrl.AbsoluteUri,
             ["TimeStart"] = timeProvider.GetUtcNow().ToUnixTimeSeconds().ToString(),
             ["MemberIP"] = order.MemberIP
         };
