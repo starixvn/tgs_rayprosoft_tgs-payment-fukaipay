@@ -45,7 +45,7 @@ public class FuKaiPayClient(
 
         var node = JsonNode.Parse(body) ?? throw new ApiFailException("Deposit response can't read.");
 
-        if (node["code"]!.GetValue<int>() != 200)
+        if (node["code"]!.ToString() != "200")
             throw new ApiFailException(node["msg"]!.ToString());
 
         var data = node["data"]!;
@@ -94,7 +94,7 @@ public class FuKaiPayClient(
 
         var node = JsonNode.Parse(body) ?? throw new ApiFailException("Withdraw response can't read.");
 
-        if (node["code"]!.GetValue<int>() != 200)
+        if (node["code"]!.ToString() != "200")
             throw new ApiFailException(node["msg"]!.ToString());
 
         return new FuKaiPayClientWithdrawResponse(
@@ -131,7 +131,7 @@ public class FuKaiPayClient(
 
         var node = JsonNode.Parse(body) ?? throw new ApiFailException("Query Deposit response can't read.");
 
-        if (node["code"]!.GetValue<int>() != 200)
+        if (node["code"]!.ToString() != "200")
             throw new ApiFailException();
 
         var data = node["data"]!;
@@ -165,7 +165,7 @@ public class FuKaiPayClient(
 
         var node = JsonNode.Parse(body) ?? throw new ApiFailException("Query Balance response can't read.");
 
-        if (node["code"]!.GetValue<int>() != 200)
+        if (node["code"]!.ToString() != "200")
             throw new ApiFailException();
 
         var data = node["data"]!;

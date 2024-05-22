@@ -194,6 +194,6 @@ public class FuKaiPayClientTests
 
         Assert.Equal(100m, actual.Amount);
         Assert.Equal(formId, actual.FormId);
-        Assert.Equal("94182b09-5375-4d21-86ce-9e06492e3cda", actual.ThirdPartyOrderNo);        
+        Assert.Equal("94182b09-5375-4d21-86ce-9e06492e3cda", actual.ThirdPartyOrderNo);
     }
 }
